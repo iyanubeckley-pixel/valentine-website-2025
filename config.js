@@ -49,7 +49,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yaayyy! hehe, I'm the luckiest person on earth! 🎉💝💖💝💓",
+        title: "Yaayyy! hehe, I'm the luckiest person on earth! 🎉💝💖💝💓"
         message: "Now come get your gift, mon petit soleil
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
@@ -77,7 +77,7 @@ const CONFIG = {
     // Add your own music URL after getting proper licenses
     music: {
         enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        autoplay: false,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dk5x6m6ui/video/upload/v1770416816/girl_in_red_-_we_fell_in_love_in_october_bgkov6.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
